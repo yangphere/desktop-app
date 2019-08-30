@@ -20,7 +20,13 @@ See https://github.com/atom/electron#downloads
 
 Download this project, and run
 
-````
+```shell
+# 1. use gulp to parse less
+$> cd PATH-TO-LEANOTE-DESKTOP-APP/dev
+$> npm install
+$> gulp dev
+
+# 2. run with electron
 $> cd PATH-TO-LEANOTE-DESKTOP-APP
 $> electron .
 ```
@@ -37,7 +43,7 @@ Please see https://github.com/leanote/desktop-app/wiki
 ```
 LEANOTE - NOT JUST A NOTEPAD!
 
-Copyright 2015 by the contributors.
+Copyright by the contributors.
 
 This program is free software; you can redistribute it and/or modify
 it under the terms of the GNU General Public License as published by

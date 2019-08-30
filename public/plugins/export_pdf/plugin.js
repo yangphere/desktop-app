@@ -16,6 +16,13 @@ define(function() {
 				'exportSuccess': 'PDF saved successful!',
 				'exportFailure': 'PDF saved failure!',
 			},
+			'de-de': {
+				'export': 'Als PDF exportieren',
+				'Exporting': 'Exportiere',
+				'Exporting: ': 'Exportiere: ',
+				'exportSuccess': 'PDF erfolgreich gespeichert!',
+				'exportFailure': 'PDF speichern fehlgeschlagen!',
+			},
 			'zh-cn': {
 				'export': '导出PDF',
 				'Exporting': '正在导出',
@@ -48,7 +55,8 @@ define(function() {
 		_exportPdfCallback: {},
 		_initExportPdf: function () {
 			var me = this;
-			Api.ipc.on('export-pdf-ret', function(arg) {
+			// console.log('_initExportPdf');
+			Api.ipc.on('export-pdf-ret', function(event, arg) {
 				var seq = arg.seq;
 				// console.log('export-pdf-ret');
 				// console.log(arg);

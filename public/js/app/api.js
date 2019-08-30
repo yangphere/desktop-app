@@ -17,7 +17,8 @@ var Api = {
 	noteService: NoteService,
 	userService: UserService,
 	dbService: db,
-	ipc: nodeRequire('ipc'),
+	ipc: nodeRequire('electron').ipcRenderer,
+    projectPath: projectPath,
 
 	// 打开本地目录
 	// mac和windows下不同
@@ -95,7 +96,7 @@ var Api = {
 		if(prefix) {
 			key = prefix + '.' + key;
 		}
-		
+
 		var msg = me._langs[me.curLang][key] || me._langs[me.defaultLang][key] || rawKey;
 
 		if(data) {
@@ -116,7 +117,7 @@ var Api = {
 		$.extend(me._langs[me.curLang], window.langData);
 
 		// extend
-		window.getMsg = function(key, prefix, data) { 
+		window.getMsg = function(key, prefix, data) {
 			return me.getMsg(key, prefix, data);
 		};
 	},
@@ -135,12 +136,23 @@ var Api = {
 		me._themeMenu = menus;
 	},
 
+  // markdown theme
+  _mdThemeMenu: null,
+  getMdThemeMenu: function() {
+    var me = this;
+		return me._mdThemeMenu;
+  },
+  setMdThemeMenu: function(menus) {
+    var me = this;
+    me._mdThemeMenu = menus;
+  },
+
 	_importMenus: [],
 	addImportMenu: function(menu) {
 		var me = this;
 		me._importMenus.push(menu);
 	},
-	getImportMenus: function() { 
+	getImportMenus: function() {
 		var me = this;
 		return me._importMenus;
 	},

@@ -91,6 +91,8 @@
     "Logout": "登出",
     "minLength": "長度至少為%s",
     "Move": "移動",
+    "doubleClick": "請“雙擊”期望的記事本",
+    "selectNotebook": "選擇記事本",
     "myBlog": "我的部落格",
     "myNote": "我的筆記",
     "myNotebook": "我的記事本",
@@ -307,5 +309,30 @@
     "Don't Show Anymore": "不再提示",
 
     "Load Database Error": "載入資料庫出錯, 請嘗試在帳戶管理中優化資料庫",
-    "ctrl/cmd+e Toggle Modify with Readonly": "ctrl/cmd+e 切換編輯與唯讀"
+    "ctrl/cmd+e Toggle Modify with Readonly": "ctrl/cmd+e 切換編輯與唯讀",
+
+    "Open": "打開",
+    "Close": "關閉",
+
+    "Snippet View": "摘要視圖",
+    "List View": "列表視圖",
+    
+    "Network error, please check out your network.": "網絡異常, 請檢查網絡或稍後再試",
+    "You need to sign in Leanote": "您需要重新登錄Leanote",
+    "You need to upgrade Leanote account": "同步失敗, 帳戶已到期或流量已用完, 您需要升級Leanote帳戶",
+
+    "It will not be synced before fixed.": "該筆記未解決前將不會同步",
+    "Sync error": "同步失敗",
+    "Message": "信息",
+    "notExists": "服務端筆記不存在",
+    "fileUploadError": "圖片/附件上傳失敗",
+
+    "Toggle DevTools": "切換開發者工具",
+
+    "Date Created - ASC": "按創建時間-升序",
+    "Date Created - DESC": "按創建時間-降序",
+    "Date Updated - ASC": "按更新時間-升序",
+    "Date Updated - DESC": "按更新時間-降序",
+    "Title - ASC": "按標題-升序",
+    "Title - DESC": "按標題-降序"
 }

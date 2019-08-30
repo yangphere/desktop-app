@@ -91,6 +91,8 @@
     "Logout": "注销",
     "minLength": "长度至少为%s",
     "Move": "移动",
+    "doubleClick": "请“双击”期望的笔记本",
+    "selectNotebook": "选择笔记本",
     "myBlog": "我的博客",
     "myNote": "我的笔记",
     "myNotebook": "我的笔记本",
@@ -138,6 +140,7 @@
     "shareInfo": "你也可以将知识分享给你的好友.",
     "shareToFriends": "分享给好友",
     "simple": "简约",
+    
     "submit": "提交",
     "suggestions": "建议",
     "suggestionsInfo": "帮助我们完善leanote",
@@ -308,5 +311,30 @@
     "localAccountTips": "你好, 您使用的是本地离线帐户, 您的数据只存在本地, 不会同步到Leanote服务器, 如果您不小心删除了数据或硬盘损坏, 您的数据将永久丢失. <br>所以我们推荐您使用Leanote帐户来使用该客户端, 这样您的数据将会存储到云端, 以避免失误造成的数据丢失. <br>Leanote桌面端不再支持创建本地帐户, 但您之前创建的本地帐户还是可以继续使用.",
     "Don't Show Anymore": "不再提示",
 
-    "ctrl/cmd+e Toggle Modify with Readonly": "ctrl/cmd+e 切换编辑与只读"
-}
+    "ctrl/cmd+e Toggle Modify with Readonly": "ctrl/cmd+e 切换编辑与只读",
+
+    "Open": "打开",
+    "Close": "关闭",
+
+    "Snippet View": "摘要视图",
+    "List View": "列表视图",
+
+    "Network error, please check out your network.": "网络异常, 请检查网络或稍后再试",
+    "You need to sign in Leanote": "您需要重新登录Leanote",
+    "You need to upgrade Leanote account": "同步失败, 帐户已到期或流量已用完, 您需要升级Leanote帐户",
+
+    "It will not be synced before fixed.": "该笔记未解决前将不会同步",
+    "Sync error": "同步失败",
+    "Message": "信息",
+    "notExists": "服务端笔记不存在",
+    "fileUploadError": "图片/附件上传失败",
+
+    "Toggle DevTools": "切换开发者工具",
+
+    "Date Created - ASC": "按创建时间-升序",
+    "Date Created - DESC": "按创建时间-降序",
+    "Date Updated - ASC": "按更新时间-升序",
+    "Date Updated - DESC": "按更新时间-降序",
+    "Title - ASC": "按标题-升序",
+    "Title - DESC": "按标题-降序"
+}  
